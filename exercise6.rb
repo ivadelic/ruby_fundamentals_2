@@ -16,3 +16,5 @@ if list.include? "bananas"
 else 
 	puts "You need bananas today."
 end
+
+puts "Your second item on your list is #{list[1]}."
