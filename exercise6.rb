@@ -1,4 +1,11 @@
-grocery_list = ["carrots", "toilet paper", "apples", "salmon"] #this is an array
-grocery_list.each do |item|
-	puts "* #{item}"
+list = ["carrots", "toilet paper", "apples", "salmon"] #this is an array
+
+def groceries(grocery_list)
+	grocery_list.each do |item|
+		puts "* #{item}"
+	end
 end
+
+list.push("rice")
+groceries(list)
+
