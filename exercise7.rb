@@ -14,3 +14,10 @@ students[:cohort4] = 43
 cohorts(students)
 
 puts students.keys
+
+students.each do |key, value|
+	new_value = (value*1.05).to_i
+	puts new_value
+end
+
+
