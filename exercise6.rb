@@ -10,3 +10,9 @@ list.push("rice")
 groceries(list)
 
 puts "There are #{list.count} items on your grocery list."  
+
+if list.include? "bananas"
+	puts "You don't need to pick up bananas today."
+else 
+	puts "You need bananas today."
+end
