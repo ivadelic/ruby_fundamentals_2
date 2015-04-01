@@ -19,4 +19,5 @@ end
 
 puts "Your second item on your list is #{list[1]}."
 
+list.delete("salmon")
 groceries(list.sort)
